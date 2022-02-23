@@ -1,3 +1,8 @@
+import discord
+from fuzzywuzzy import fuzz
+from fuzzywuzzy import requests
+import random
+
 @client.event
 async def on_message(message):
     RESPONSES = ["Don't mention me!", "Stop mentioning me!", "I won't repeat it, DON'T MENTION ME!!!"]
